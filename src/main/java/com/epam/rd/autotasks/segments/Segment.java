@@ -15,6 +15,7 @@ class Segment {
 
     double length() {
         double d;
+        int x1 = start.x
         
     }
 
