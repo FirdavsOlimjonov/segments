@@ -11,6 +11,12 @@ class Segment {
     public Segment(Point start, Point end) {
         this.start = start;
         this.end = end;
+        check(start,end);
+    }
+
+    private void check(Point p1, Point p2){
+        if (p2 == null||p1==null)
+            throw new RuntimeException();
     }
 
     double length() {
